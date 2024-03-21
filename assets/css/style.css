@@ -1,0 +1,112 @@
+body {
+    margin: 0;
+    border: 0;
+    padding: 0;
+    font-family: 'Titillium Web', 'Open Sans', sans-serif;
+    /* esta es la propiedad que añadimos
+   */
+}
+
+.navbar {
+    background-color: #373A3C;
+}
+
+
+
+#hero-section {
+    background: transparent url(../img/bg-hero.jpg) 0% 0% no-repeat padding-box;
+    opacity: 1;
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* Propiedades Agregadas */
+    font-family: "Open sans";
+    color: white;
+}
+#hero-section h2{
+    font-size: 3rem;
+}
+
+#hero-section p{
+    font-size: 1rem;
+}
+.raleway-regular {
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.raleway-bold {
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.bg-black {
+    background-color: black;
+}
+
+.bg-white {
+    background-color: white;
+}
+
+.bg-info {
+    background-color: #17a2b8;
+}
+
+#acerca-de-mi i {
+    font-size: 2rem;
+}
+
+/*
+Alto mínimo del card-img-top según resolución
+*/
+@media (min-width: 1200px) {
+    .card .card-img-top {
+        max-height: 264px;
+    }
+    .card .card-img-top {
+        max-height: 264px;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .card .card-img-top {
+        max-height: 220px;
+    }
+    .card .card-title{
+        min-height: 74px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .card .card-img-top {
+        max-height: 164px;
+    }
+    .card .card-title{
+        min-height: 74px;
+    }
+}
+
+@media (max-width: 767.98px) {
+    .card .card-img-top {
+        max-height: 120px;
+    }
+    .card .card-title{
+        min-height: 100px;
+    }
+}
+@media (max-width: 576px) { 
+    .card .card-img-top {
+        max-height: 220px;
+    }
+    .card .card-title{
+        min-height: 30px;
+    }
+}
+footer {
+    background: #0F0F0F 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
